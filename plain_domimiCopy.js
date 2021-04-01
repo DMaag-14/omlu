@@ -46,7 +46,7 @@ export const plain = ({ query, store, info }) => {
 	function App(vnode) {
 		function onclickFunction() {
 			gsap.to(".element", {
-				duration: 1, x: 100, y: -400
+				duration: 1, x: 100
 			})
 				
 		}
